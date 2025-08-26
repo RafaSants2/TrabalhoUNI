@@ -5,15 +5,18 @@
     padding: 0px;
 }
 
+/*estilo no corpo da página*/
 body {
     background-color: white;
     
 }
 
+/*estilo do cabeçalho*/
 header {
     background-image: linear-gradient(to bottom, rgb(202, 195, 195), rgb(177, 171, 171), rgb(163, 156, 156), rgb(129, 125, 125));
 }
 
+/*estilo do h1 dentro do header*/
 header > h1 {
     padding-top: 18px;
     padding-bottom: 20px;
@@ -24,12 +27,15 @@ header > h1 {
     text-shadow: rgba(0, 0, 0, 0.41) 2px 2px 0px;
 }
 
+
+/*estil no menu de navegação*/
 nav {
     background-color: rgb(129, 125, 125);
     padding: 10px;
     box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.151);
 }
 
+/*estilo dos links dentro do nav*/
 nav > a {
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
@@ -41,6 +47,8 @@ nav > a {
     border-radius: 5px;
 }
 
+
+/*estilo no link usando pseudo-classe*/
 a:hover {
     background-color: rgb(177, 171, 171);
     color: rgb(240, 231, 231);

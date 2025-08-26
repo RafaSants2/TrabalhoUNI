@@ -30,6 +30,7 @@ nav {
     box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.151);
 }
 
+/*estilo do span localizado em um dos links do menu de navegação*/
 span {
     color: rgb(27, 27, 27);
 }
@@ -50,6 +51,7 @@ a:hover {
     color: rgb(240, 231, 231);
 }
 
+/*estilização no conteúdo principal*/
 main {
     background-color: rgb(241, 238, 238);
     padding: 20px;
@@ -62,6 +64,7 @@ main {
     display: block;
 }
 
+/*estilização da caixa de texto e email no conteúdo principal*/
 main input[type="text"], input[type="email"] {
     width: 100%;
     margin: auto;
@@ -73,12 +76,14 @@ main input[type="text"], input[type="email"] {
     border: 1px solid #ccc;
 }
 
+/*estilo na classe 'botao' no "input" text e "email" com pseudo-classe*/
 main .botao:focus {
     border-color: #adadad; /*muda a cor da borda ao ser clicado*/
     box-shadow: 0 0 2px #989aa0; /*deixa a borda "brilhante"*/
     outline: none;
 }
 
+/*estilo na caixa de comentário*/
 main textarea {
     width: 100%;
     margin-bottom: 15px;
@@ -88,12 +93,14 @@ main textarea {
     padding: 2px 0px 2px 1px;
 }
 
+/*estilo na classe ".comentario" da caixa textarea, usando pseudo-classe*/
 main .comentario:focus {
     border-color: #adadad;
     box-shadow: 0 0 2px #989aa0;
     outline: none;
 }
 
+/*estilo no botão dentro de main*/
 main button {
     font-weight: bold;
     color: white;
@@ -107,6 +114,7 @@ main button {
     margin-bottom: 15px;
 }
 
+/*estilo no botão dentro de main usando pseudo-classe*/
 main button:hover {
     background-color: rgb(7, 170, 7);
 }

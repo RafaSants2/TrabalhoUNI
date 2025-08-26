@@ -50,6 +50,7 @@ a:hover {
     color: rgb(240, 231, 231);
 }
 
+
 main {
     background-color: rgb(241, 238, 238);
     padding: 20px;
@@ -66,11 +67,13 @@ main > h1 {
     font-size: 1.8em;
 }
 
+/*estilo na lista ordenada dentro do main*/
 main ol {
     font-size: 18px;
     padding-left: 20px;
 }
 
+/*estilo na lista NÃO ordenada dentro do main*/
 main ul {
     padding-inline-start: 40px;
 }
